@@ -1,0 +1,7 @@
+[providers]
+onepass = { type = "1password", vault = "Development" }
+
+[secrets]
+AWS_ACCESS_KEY_ID = { provider = "onepass", value = "op://Development/ops/tf-state/AWS_ACCESS_KEY_ID" }
+AWS_SECRET_ACCESS_KEY = { provider = "onepass", value = "op://Development/ops/tf-state/AWS_SECRET_ACCESS_KEY" }
+AWS_ENDPOINT_URL_S3 = { provider = "onepass", value = "op://Development/ops/tf-state/AWS_ENDPOINT_URL_S3" }
