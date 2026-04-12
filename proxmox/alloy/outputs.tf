@@ -4,6 +4,6 @@ output "lxc_ipv4" {
 }
 
 output "otel_http_endpoint" {
-  description = "Reserved OTLP/HTTP metrics endpoint for a future Alloy deployment."
+  description = "OTLP/HTTP metrics endpoint expected to be served by Alloy."
   value       = "http://${local.lxc_ipv4_address}:4318/v1/metrics"
 }
