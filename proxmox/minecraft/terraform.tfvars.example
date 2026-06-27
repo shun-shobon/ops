@@ -1,0 +1,21 @@
+# All module inputs have defaults.
+# Use this file only when you want to override them.
+
+# authorized_ssh_keys = [
+#   "ssh-ed25519 AAAA... replace-me",
+# ]
+#
+# cpu_cores             = 4
+# dedicated_memory_mb   = 8192
+# disk_size_gb          = 40
+# dns_servers           = ["192.168.0.1", "1.1.1.1"]
+# hostname              = "minecraft"
+# ipv4_cidr             = "192.168.0.102/24"
+# ipv4_gateway          = "192.168.0.1"
+# minecraft_server_port = 25565
+# network_bridge        = "vmbr0"
+# node_name             = "pve"
+# rootfs_datastore_id   = "local-lvm"
+# swap_memory_mb        = 2048
+# template_datastore_id = "local"
+# vm_id                 = 1300
